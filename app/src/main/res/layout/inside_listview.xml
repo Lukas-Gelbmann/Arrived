@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsideListView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/inside_listview_info"
+            android:layout_width="match_parent"
+            android:textColor="@color/quantum_greyblack1000"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_margin="16dp"
+            android:textSize="24sp"
+            android:text="@string/information" />
+
+        <TextView
+            android:id="@+id/inside_listview_name"
+            android:layout_width="match_parent"
+            android:textColor="@color/quantum_greyblack1000"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_margin="16dp"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/inside_listview_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/quantum_greyblack1000"
+            android:fontFamily="@font/roboto"
+            android:layout_margin="16dp"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/inside_listview_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/quantum_greyblack1000"
+            android:fontFamily="@font/roboto"
+            android:layout_margin="16dp"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:id="@+id/inside_listview_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/quantum_greyblack1000"
+            android:layout_margin="16dp"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:id="@+id/inside_listview_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/quantum_greyblack1000"
+            android:layout_margin="16dp"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/button_design"
+            android:text="@string/delete_Button" />
+
+        <Button
+            android:id="@+id/returning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/button_design"
+            android:text="@string/return_Button" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

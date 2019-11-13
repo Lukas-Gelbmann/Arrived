@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Arrived</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete_Button">Delete</string>
+    <string name="return_Button">Return</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name:</string>
+
+    <string name="google_maps_api_key">AIzaSyA5H9a4kRFyczsp8WKiGK5MD4w70M1v7XA</string>
+    <string name="options_info">Options:</string>
+    <string name="options_location_query_delay">Location query delay:</string>
+    <string name="options_newest_entry_first">Newest entry first:</string>
+    <string name="create_entry_message">Enter message</string>
+    <string name="create_entry_radius">Radius: 2 km</string>
+    <string name="create_entry_button">create</string>
+    <string name="create_entry_name">Enter name</string>
+    <string name="create_entry_phoneNumber">Enter telephone number</string>
+    <string name="create_entry_address">Enter address, city or zip code</string>
+    <string name="information">Information:</string>
+    <string name="location_query_delay">Location query delay:</string>
+    <string name="options_restart">Please restart after change! </string>
+    <string name="create_entry_change_radius">Radius:</string>
+    <string name="sms_sent">A sms has been sent to</string>
+    <string name="delete_fragment_message">Do you really want to delete the entry?</string>
+</resources>

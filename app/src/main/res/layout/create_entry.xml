@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.fhooe.mc.android.Arrived.CreateEntry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName|textNoSuggestions"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:hint="@string/create_entry_name"
+            android:padding="10dp"
+            android:background="@drawable/edittext_design"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/nummer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="number|numberDecimal"
+            android:maxLines="1"
+            android:maxLength="12"
+            android:hint="@string/create_entry_phoneNumber"
+            android:padding="10dp"
+            android:background="@drawable/edittext_design"
+            android:textSize="24sp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/creatEntry_Search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/create_entry_address"
+            android:inputType="textPostalAddress"
+            android:maxLines="1"
+            android:maxLength="40"
+            android:imeOptions="actionSearch"
+            android:padding="10dp"
+            android:background="@drawable/edittext_design"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/nachricht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textNoSuggestions|textMultiLine"
+            android:minLines="3"
+            android:maxLines="3"
+            android:maxLength="100"
+            android:hint="@string/create_entry_message"
+            android:padding="10dp"
+            android:background="@drawable/edittext_design"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/create_entry_radius"
+            android:textColor="@color/quantum_greyblack1000"
+            android:padding="10dp"
+            android:textSize="24sp"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:id="@+id/seekBar"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:max="20"
+            android:progress="10" />
+
+        <Button
+            android:id="@+id/createbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_design"
+            android:text="@string/create_entry_button"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
